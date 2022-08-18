@@ -7,8 +7,8 @@ function diverone (content){
 function oneLoader (){
 const divOne = document.createElement('div')
 divOne.appendChild(diverone('<h1>Welcome To Alberts Tavern</h1>'));
-divOne.appendChild(diverone('Some text Here'));
-divOne.appendChild(diverone('Other text here'));
+divOne.appendChild(diverone('he atmosphere and customer service make you feel like you are sitting in the middle of the woods, eating like a bear! This is exactly the kind of place that I like to return to again and again.'));
+divOne.appendChild(diverone('he atmosphere and customer service make you feel like you are sitting in the middle of the woods, eating like a bear! This is exactly the kind of place that I like to return to again and again.'));
 return divOne;
 }
 export default oneLoader;

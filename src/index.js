@@ -1,15 +1,14 @@
 import oneLoader from './pageOne';
 import twoLoader from './pageTwo';
 import threeLoader from './pageThree';
+import './style.css';
 
 const mainBody = document.getElementById('content');
 const createDiv = document.createElement('div');
-const createDivTwo = document.createElement('div')
+const createDivTwo = document.createElement('div');
 createDiv.setAttribute('class','header');
+createDivTwo.setAttribute('class','mainbody');
 const headEle = document.getElementById('head');
-
-headEle.innerHTML = 
-'<style> body {background-color: aqua;} </style>'
 
 function diver (content){
   let temp = document.createElement('div')

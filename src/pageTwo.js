@@ -6,8 +6,8 @@ function divertwo (content){
 
 function twoLoader (){
 const divOne = document.createElement('div')
-divOne.appendChild(divertwo('<h1>Second PAge</h1>'));
-divOne.appendChild(divertwo('You made it'));
+divOne.appendChild(divertwo('<h1>Menu</h1>'));
+divOne.appendChild(divertwo('Theres not much but theres this'));
 divOne.appendChild(divertwo('Yay Jose'));
 return divOne;
 }

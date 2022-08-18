@@ -6,9 +6,9 @@ function divertwo (content){
 
 function threeLoader (){
 const divOne = document.createElement('div')
-divOne.appendChild(divertwo('<h1>Third PAge</h1>'));
-divOne.appendChild(divertwo('Hallelujah'));
-divOne.appendChild(divertwo('OMG'));
+divOne.appendChild(divertwo('<h1>Contact</h1>'));
+divOne.appendChild(divertwo('Dont contact me man'));
+divOne.appendChild(divertwo('Call someone else'));
 return divOne;
 }
 export default threeLoader;
